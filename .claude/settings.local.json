@@ -1,7 +1,18 @@
 {
   "permissions": {
     "allow": [
-      "Bash(gh auth *)"
+      "Bash(gh auth *)",
+      "Bash(npx create-next-app@latest . --ts --eslint --no-tailwind --no-src-dir --app --no-import-alias --yes --name \"wyld-west\")",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3333)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(curl -s http://localhost:3333)",
+      "Bash(node -e ' *)",
+      "Bash(npx playwright *)",
+      "Bash(npx -y playwright@1.60.0 codegen)",
+      "Bash(node)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)"
     ]
   }
 }
